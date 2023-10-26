@@ -1,21 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197029859-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-197029859-1');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WCWT6KN');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <style>
+    .cookieConsentContainer {
+      z-index: 999;
+      width: 700px;
+      min-height: 20px;
+      box-sizing: border-box;
+      padding: 30px 30px 30px 30px;
+      background: #0062cc;
+      overflow: hidden;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      display: none
+    }
+
+    .cookieConsentContainer .cookieTitle a {
+      font-family: OpenSans, arial, sans-serif;
+      color: #fff;
+      font-size: 22px;
+      line-height: 20px;
+      display: block
+    }
+
+    .cookieConsentContainer .cookieDesc p {
+      margin: 0;
+      padding: 0;
+      font-family: OpenSans, arial, sans-serif;
+      color: #fff;
+      font-size: 13px;
+      line-height: 20px;
+      display: block;
+      margin-top: 10px
+    }
+
+    .cookieConsentContainer .cookieDesc a {
+      font-family: OpenSans, arial, sans-serif;
+      color: #fff;
+      text-decoration: underline
+    }
+
+    .cookieConsentContainer .cookieButton a {
+      display: inline-block;
+      font-family: OpenSans, arial, sans-serif;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 14px;
+      background: #000;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      text-align: center;
+      transition: background .3s
+    }
+
+    .cookieConsentContainer .cookieButton a:hover {
+      cursor: pointer;
+      background: #3e9b67
+    }
+
+    @media (max-width:980px) {
+      .cookieConsentContainer {
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important
+      }
+    }
+  </style>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +117,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>TC do Brasil</title>
+  <script src="//code.jivosite.com/widget/apNPpoXT9k" async></script>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +135,86 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+  <!-- Ligamos -->
+
+  <a href="/" class="float2" target="_blank">
+    <i class="fa fa-envelope my-float2" alt="Teste"></i>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+      .float2 {
+        right: 25px;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 180px;
+        background-color: #007BFF;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+
+      .my-float2 {
+        margin-top: 16px;
+      }
+
+      @media (max-width: 590px) {
+        .float2 {
+          display: none;
+        }
+
+        .my-float2 {
+          margin-top: 16px;
+        }
+
+      }
+    </style>
+  </a>
+
+  <!-- whatsapp -->
+
+  <a href="https://api.whatsapp.com/send/?phone=5511913155845&text&app_absent=0" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+      .float {
+        right: 25px;
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 100px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+
+      .my-float {
+        margin-top: 16px;
+      }
+
+
+      @media (max-width: 590px) {
+        .float {
+          display: none;
+        }
+
+        .my-float {
+          margin-top: 16px;
+        }
+
+      }
+    </style>
+  </a>
+  <script type="text/javascript" async
+    src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/b9a5ee27-a5a0-4182-83f3-ab15e5df958e-loader.js"></script>
+  <script>var purecookieTitle = "Acordo de utilização de Cookies", purecookieDesc = "Ao usar este site, você aceita automaticamente que usamos cookies.", purecookieLink = '<a href="https://www.tcdobrasil.com.br/politica.html" target="_blank">Saiba mais</a>', purecookieButton = "Aceito"; function pureFadeIn(e, o) { var i = document.getElementById(e); i.style.opacity = 0, i.style.display = o || "block", function e() { var o = parseFloat(i.style.opacity); (o += .02) > 1 || (i.style.opacity = o, requestAnimationFrame(e)) }() } function pureFadeOut(e) { var o = document.getElementById(e); o.style.opacity = 1, function e() { (o.style.opacity -= .02) < 0 ? o.style.display = "none" : requestAnimationFrame(e) }() } function setCookie(e, o, i) { var t = ""; if (i) { var n = new Date; n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), t = "; expires=" + n.toUTCString() } document.cookie = e + "=" + (o || "") + t + "; path=/" } function getCookie(e) { for (var o = e + "=", i = document.cookie.split(";"), t = 0; t < i.length; t++) { for (var n = i[t]; " " == n.charAt(0);)n = n.substring(1, n.length); if (0 == n.indexOf(o)) return n.substring(o.length, n.length) } return null } function eraseCookie(e) { document.cookie = e + "=; Max-Age=-99999999;" } function cookieConsent() { getCookie("purecookieDismiss") || (document.body.innerHTML += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>' + purecookieTitle + '</a></div><div class="cookieDesc"><p>' + purecookieDesc + " " + purecookieLink + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">' + purecookieButton + "</a></div></div>", pureFadeIn("cookieConsentContainer")) } function purecookieDismiss() { setCookie("purecookieDismiss", "1", 7), pureFadeOut("cookieConsentContainer") } window.onload = function () { cookieConsent() };</script>
+</body>
+
 </html>

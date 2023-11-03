@@ -43,9 +43,9 @@ const Footer = () => {
                             <ul>
                                 <li><Link ><h5>LINKS</h5></Link></li>
                                 <li><Link to="/empresa">A Empresa</Link></li>
-                                <li><Link to="/">Clientes</Link><br /></li>
-                                <li><Link to="/">Parceiros</Link><br /></li>
-                                <li><Link to="/">Contato</Link><br /></li>
+                                <li><Link to="/clientes">Clientes</Link><br /></li>
+                                <li><Link to="/parceiros">Parceiros</Link><br /></li>
+                                <li><Link to="/contato">Contato</Link><br /></li>
                                 <li> <Link to="https://www.tcdobrasil.com" target="_blank" href="" >Blog TI</Link></li>
                             </ul>
                         </div>
@@ -54,17 +54,17 @@ const Footer = () => {
 
                             <ul>
                                 <li><Link ><h5>LINKS</h5></Link></li>
-                                <li><Link to="/">Helpdesk</Link></li>
-                                <li><Link to="/">Servicedesk</Link><br /></li>
-                                <li><Link to="/">FieldService</Link><br /></li>
-                                <li><Link to="/">Gerenciamento de Ativos</Link><br /></li>
-                                <li><Link to="/">NOC</Link></li>
-                                <li><Link to="/">SOC</Link></li>
-                                <li><Link to="/">BOC</Link><br /></li>
-                                <li><Link to="/">Gestão de Datacenter</Link><br /></li>
-                                <li><Link to="/">Gestão de Redes</Link><br /></li>
-                                <li><Link to="/">Outsourcing de Firewall</Link></li>
-                                <li><Link to="/">Serviços Gerenciados</Link></li>
+                                <li><Link to="/helpdesk">Helpdesk</Link></li>
+                                <li><Link to="/servicedesk">Servicedesk</Link><br /></li>
+                                <li><Link to="/fieldservice">FieldService</Link><br /></li>
+                               {/*  <li><Link to="/">Gerenciamento de Ativos</Link><br /></li> */}
+                                <li><Link to="/noc">NOC</Link></li>
+                                <li><Link to="/soc">SOC</Link></li>
+                                <li><Link to="/boc">BOC</Link><br /></li>
+                                <li><Link to="/datacenter">Gestão de Datacenter</Link><br /></li>
+                                <li><Link to="/redes">Gestão de Redes</Link><br /></li>
+                                <li><Link to="/outsourcing">Outsourcing de Firewall</Link></li>
+                                <li><Link to="/sergerenciados">Serviços Gerenciados</Link></li>
                                 <li><Link to="/">Auditoria</Link><br /></li>
                                 <li><Link to="/">Consultoria</Link><br /></li>
                                 <li><Link to="/">LGPD</Link><br /></li>

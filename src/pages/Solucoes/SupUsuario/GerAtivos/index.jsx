@@ -5,7 +5,7 @@ import Footer from "../../../../components/Footer"
 
 
 
-const Contato = () => {
+const GerAtivos = () => {
 
 
     useEffect(() => {
@@ -16,6 +16,8 @@ const Contato = () => {
         <>
             <Header />
 
+            <h1>COLETAR INFORMAÇÔES PARA MONTAR A PAGINA</h1>
+
             
 
             <Footer />
@@ -23,4 +25,4 @@ const Contato = () => {
     )
 }
 
-export default Contato
+export default GerAtivos

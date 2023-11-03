@@ -3,17 +3,17 @@ import Header from "../../../../components/Header"
 import Footer from "../../../../components/Footer"
 import HeadbandServiceDesk from "../../../../components/Headband/HeadbandServiceDesk"
 import "./servicedesk.css"
-import FieldService1 from "../../../../assets/FieldService.webp"
+import Servicedesk1 from "../../../../assets/serviceDesk.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
-import {faChartSimple } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple } from '@fortawesome/free-solid-svg-icons';
+import { faNoteSticky } from '@fortawesome/free-solid-svg-icons';
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { faHeadset } from '@fortawesome/free-solid-svg-icons';
 
 
 
-const Contato = () => {
+const ServiceDesk = () => {
 
 
     useEffect(() => {
@@ -23,11 +23,12 @@ const Contato = () => {
 
         <>
             <Header />
-            <HeadbandServiceDesk/>
+            <HeadbandServiceDesk />
             <div className="container containerh3">
                 <h1>Service Desk TC do Brasil</h1>
 
-                <p>O Field Service (ou serviço de campo) refere-se a atividades de suporte técnico que são executadas no local, no ambiente do cliente. Isso envolve o envio de técnicos e especialistas para o local onde o problema está ocorrendo, geralmente quando não é possível resolver o problema remotamente. O field service lida com questões mais complexas que exigem intervenção física ou configuração no local, como reparos de hardware, instalação de equipamentos, manutenção preventiva, entre outros. É comum em setores como tecnologia, telecomunicações, equipamentos médicos, entre outros.
+                <p>O service desk também é responsável por fornecer suporte técnico aos usuários, mas vai além das funções do helpdesk. O service desk é um ponto único de contato para os clientes e usuários finais, gerenciando solicitações de suporte, problemas e incidentes. Além de lidar com questões técnicas, o service desk também trata de solicitações de serviços, como provisionamento de contas, acesso a recursos específicos e solicitação de novos serviços. O service desk é mais abrangente em termos de serviços e demandas atendidas.
+
                 </p>
 
             </div>
@@ -36,18 +37,24 @@ const Contato = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 box-field">
-                            <h4>O projeto certo para sua empresa</h4>
+                            <h4>Projeto e consultoria técnica</h4>
                             <p>
-                                Os projetos de Field Service da Tecnocomp são personalizados de acordo com as necessidades individuais de cada empresa. Oferecemos a flexibilidade de designar técnicos residentes, que fazem parte de nossa equipe interna, ou de operar sob demanda através de chamados avulsos ou franquia de chamados, que podem envolver tanto nossa equipe interna quanto parceiros credenciados.<br /><br />
+                                Para iniciar uma operação de Service Desk, a TC do Brasil realiza um abrangente projeto que engloba consultoria técnica especializada, com foco na definição de processos, ferramentas e recursos essenciais.<br /><br />
 
-                                Nossos clientes desfrutam de um acompanhamento em tempo real de suas operações. Além disso, fornecemos acesso a relatórios e dashboards que permitem a análise de métricas e o gerenciamento dos serviços prestados.<br /><br />
+                                Nossa estrutura de Service Desk é equipada com uma ferramenta própria de ITSM, embora também tenhamos a flexibilidade de empregar a solução preferida pelo cliente. Esse gerenciamento permite uma administração eficiente de Incidentes, Requisições e Projetos, com um histórico notável de cumprimento de 100% dos SLA's acordados, assegurando alta qualidade percebida pelo usuário final. Descubra mais sobre nossos canais de contato disponíveis.<br /><br />
 
-                                Os profissionais de Field Service da Tecnocomp são continuamente treinados, atualizados, avaliados e reconhecidos por seus excelentes resultados. Esse comprometimento resulta em uma baixa taxa de rotatividade. Para garantir a eficiência das operações em campo, contamos com uma equipe de suporte que cobre eventuais ausências, incluindo férias, e implementa uma gestão de conhecimento abrangente e treinamentos para minimizar qualquer impacto nas operações de nossos clientes.
+
+                                 - Telefone com acesso via VPN<br />
+                                 - E-mail<br />
+                                 - Portal/web<br />
+                                 - Chat<br />
+                                 - WhatsApp<br />
+                                 - Teams<br />
                             </p>
 
                         </div>
                         <div className="col-md-4 box-field-img">
-                            <img src={FieldService1} width={"650px"} alt="" />
+                            <img src={Servicedesk1} width={"650px"} alt="" />
 
 
                         </div>
@@ -55,7 +62,7 @@ const Contato = () => {
                 </div>
             </div>
 
-           
+
 
             <div className="diferenciais">
                 <div className="container">
@@ -64,31 +71,32 @@ const Contato = () => {
 
                     <div className="line">
                         <div className="boxline">
-                        <FontAwesomeIcon icon={faMap} size="2xl" style={{color: "#005eff",}} />
+                            <FontAwesomeIcon icon={faMap} size="2xl" style={{ color: "#005eff", }} />
                             <h5>Capilaridade nacional</h5>
 
                         </div>
                         <div className="boxline">
-                        <FontAwesomeIcon icon={faChartSimple} size="2xl" style={{color: "#005eff",}} />
+                            <FontAwesomeIcon icon={faChartSimple} size="2xl" style={{ color: "#005eff", }} />
                             <h5>Cumprimento do SLAs</h5>
 
                         </div>
                         <div className="boxline">
-                        <FontAwesomeIcon icon={faUser} size="2xl" style={{color: "#005eff",}} />
-                            <h5>Analista alocados ou sob demanda</h5>
+                        <FontAwesomeIcon icon={faNoteSticky} size="2xl" style={{color: "#005eff",}} />
+                            <h5>Elaboração de relatórios</h5>
 
                         </div>
                         <div className="boxline">
-                        <FontAwesomeIcon icon={faServer} size="2xl" style={{color: "#005eff",}} />
-                            <h5>Backup com cobertura toral ou parcial de peças</h5>
+                            <FontAwesomeIcon icon={faServer} size="2xl" style={{ color: "#005eff", }} />
+                            <h5>Gestão de backupss</h5>
 
                         </div>
                         <div className="boxline">
-                        <FontAwesomeIcon icon={faHeadset} size="2xl" style={{color: "#005eff",}} />
-                            <h5>Operação 24x7x365</h5>
+                            <FontAwesomeIcon icon={faHeadset} size="2xl" style={{ color: "#005eff", }} />
+                            <h5>Produtividade 24x7x365</h5>
 
                         </div>
                     </div>
+                   
                 </div>
             </div>
 
@@ -97,16 +105,16 @@ const Contato = () => {
                 <div className="qualidade">
                     <h1>Qualidade e expertise técnica</h1>
                     <p>
-                        A TC do Brasil se dedica a fornecer soluções e serviços sob medida que satisfazem integralmente as demandas dos clientes. Nossa abordagem é baseada na agilidade e responsabilidade, sustentada por tecnologias inovadoras, colaboradores altamente capacitados, parcerias sólidas com fornecedores e um sistema de gestão de qualidade focado na eficiência e constante aprimoramento. Como resultado desse comprometimento, nossa empresa conquistou diversas certificações e prêmios em reconhecimento à excelência de nossos serviços.
+                    A TC do Brasil tem um compromisso sólido de fornecer soluções e serviços que abrangem integralmente as necessidades de seus clientes. Essa dedicação se traduz em agilidade e responsabilidade, impulsionadas por tecnologias inovadoras, capacitação constante de seus colaboradores e um sólido fortalecimento de parcerias com fornecedores. Além disso, mantemos um sistema de gestão de qualidade focado na busca contínua pela eficiência e aprimoramento de nossos serviços.
                     </p>
                 </div>
             </div>
 
-            
+
 
             <Footer />
         </>
     )
 }
 
-export default Contato
+export default ServiceDesk

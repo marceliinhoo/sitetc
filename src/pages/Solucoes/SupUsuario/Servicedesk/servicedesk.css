@@ -43,18 +43,19 @@
     margin-bottom: 4rem;
 }
 
-.diferenciais{
+.diferenciais {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background-color: rgb(243, 243, 243);
 }
 
-.line{
+.line {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.boxline{
+
+.boxline {
     width: 300px;
     height: 200px;
     background-color: #fff;
@@ -65,4 +66,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .line {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

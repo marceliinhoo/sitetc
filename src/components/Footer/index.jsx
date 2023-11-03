@@ -65,12 +65,12 @@ const Footer = () => {
                                 <li><Link to="/redes">Gestão de Redes</Link><br /></li>
                                 <li><Link to="/outsourcing">Outsourcing de Firewall</Link></li>
                                 <li><Link to="/sergerenciados">Serviços Gerenciados</Link></li>
-                                <li><Link to="/">Auditoria</Link><br /></li>
-                                <li><Link to="/">Consultoria</Link><br /></li>
-                                <li><Link to="/">LGPD</Link><br /></li>
-                                <li><Link to="/">Licenciamento</Link></li>
-                                <li><Link to="/">Locação de mão de obra</Link></li>
-                                <li><Link to="/">Contingência</Link><br /></li>
+                                <li><Link to="/auditoria">Auditoria</Link><br /></li>
+                                <li><Link to="/consultoria">Consultoria</Link><br /></li>
+                                <li><Link to="/lgpd">LGPD</Link><br /></li>
+                                <li><Link to="/licenciamento">Licenciamento</Link></li>
+                                <li><Link to="/locacao">Locação de mão de obra</Link></li>
+                                <li><Link to="/contingencia">Contingência</Link><br /></li>
 
 
                             </ul>
@@ -80,12 +80,12 @@ const Footer = () => {
 
                             <ul>
                                 <li><Link ><h5>LINKS</h5></Link></li>
-                                <li><Link to="/">Financeiro</Link></li>
-                                <li><Link to="/">Industria</Link><br /></li>
-                                <li><Link to="/">Governo</Link><br /></li>
-                                <li><Link to="/">Saúde</Link><br /></li>
-                                <li><Link to="/">Serviços</Link></li>
-                                <li><Link to="/">Varejo</Link></li>
+                                <li><Link to="/finanaceiro">Financeiro</Link></li>
+                                <li><Link to="/industria">Industria</Link><br /></li>
+                                <li><Link to="/governo">Governo</Link><br /></li>
+                                <li><Link to="/saude">Saúde</Link><br /></li>
+                                <li><Link to="/logistica">Logistica</Link></li>
+                                <li><Link to="/varejo">Varejo</Link></li>
                                 <li><Link to="/">Armazenamento de dados</Link><br /></li>
                                 <li><Link to="/">Backup Offsite</Link><br /></li>
                                 <li><Link to="/">Hospedagem de aplicações</Link><br /></li>

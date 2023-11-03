@@ -210,7 +210,7 @@ const Router = () => {
                 />
                 <Route
                     exact
-                    path="/servicos"
+                    path="/logistica"
                     element={<Servicos />}
                 />
                 <Route

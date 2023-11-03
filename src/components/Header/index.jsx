@@ -63,7 +63,7 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/industria">Industria</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/governo">Governo</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/saude">Saúde</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/servicos">Serviços</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/logistica">Logistica</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/varejo">Varejo</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="DATACENTER" id="basic-nav-dropdown">

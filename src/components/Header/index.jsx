@@ -66,7 +66,7 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/logistica">Logistica</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/varejo">Varejo</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="DATACENTER" id="basic-nav-dropdown">
+                <NavDropdown title=" TCLOUD - DATACENTER" id="basic-nav-dropdown">
                   <NavDropdown.Item as={Link} to="/armazenamento">Amarenamento de dados</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/backup">Backup Offsite</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/aplicacoes">Hospedagem de aplicações</NavDropdown.Item>
@@ -77,7 +77,12 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/sobdemanda">Provisionamento de servidores sob demanda</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/linkdedicado">Links dedicados</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link as={Link} to="/contato">CONTATO</Nav.Link>
+                 <NavDropdown title="CONTATO" id="basic-nav-dropdown">
+                  <NavDropdown.Item as={Link} to="/contato">Contato</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/trabalheconosco">Trabalhe Conosnco</NavDropdown.Item>
+                  
+                </NavDropdown>
+                {/* <Nav.Link as={Link} to="/contato">CONTATO</Nav.Link> */}
                 <Nav.Link href="https://www.tcdobrasil.com" target="_blank">BLOG T.I</Nav.Link>
               </Nav>
           </Navbar.Collapse>

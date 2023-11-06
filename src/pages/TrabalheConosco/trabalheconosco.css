@@ -1,0 +1,40 @@
+.tituloTrabalheConosco {
+    margin: 1rem;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 1rem;
+}
+
+.formulario input{
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+    border: 0.5px solid blue;
+    padding: 0.3rem;
+}
+
+.formulario textarea{
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+    border: 0.5px solid blue;
+    padding: 0.3rem;
+    margin-top: 1rem;
+}
+
+.bntenviar button{
+    padding: 5px;
+    border: 0;
+    background-color: #0D6EFD;
+    color:azure;
+    width: 200px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 100%;
+}

@@ -41,6 +41,7 @@ import LinkDedicado from "./pages/Datacenter/LinkDedicado"
 import ServFisicosVirtuais from "./pages/Datacenter/ServFisicosVirtuais"
 import Sites from "./pages/Datacenter/Sites"
 import SobDemanda from "./pages/Datacenter/SobDemanda"
+import TrabalheConosco from "./pages/TrabalheConosco"
 
 
 const Router = () => {
@@ -262,6 +263,11 @@ const Router = () => {
                     exact
                     path="/sobdemanda"
                     element={<SobDemanda />}
+                />
+                 <Route
+                    exact
+                    path="/trabalheconosco"
+                    element={<TrabalheConosco />}
                 />
             </Routes>
         </BrowserRouter>

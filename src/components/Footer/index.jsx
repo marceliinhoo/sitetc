@@ -86,15 +86,15 @@ const Footer = () => {
                                 <li><Link to="/saude">Saúde</Link><br /></li>
                                 <li><Link to="/logistica">Logistica</Link></li>
                                 <li><Link to="/varejo">Varejo</Link></li>
-                                <li><Link to="/">Armazenamento de dados</Link><br /></li>
-                                <li><Link to="/">Backup Offsite</Link><br /></li>
-                                <li><Link to="/">Hospedagem de aplicações</Link><br /></li>
-                                <li><Link to="/">Hospedagem de sites</Link></li>
-                                <li><Link to="/">Hospedagem de area de trabalho </Link></li>
-                                <li><Link to="/">Hospedagem se servidores</Link><br /></li>
-                                <li><Link to="/">Integração de aplicativos e API's</Link><br /></li>
-                                <li><Link to="/">Servidores</Link><br /></li>
-                                <li><Link to="/">Links dedicados</Link></li>
+                                <li><Link to="/armazenamento">Armazenamento de dados</Link><br /></li>
+                                <li><Link to="/backup">Backup Offsite</Link><br /></li>
+                                <li><Link to="/aplicacoes">Hospedagem de aplicações</Link><br /></li>
+                                <li><Link to="/sites">Hospedagem de sites</Link></li>
+                                <li><Link to="/areadetrabalho">Hospedagem de area de trabalho </Link></li>
+                                <li><Link to="/servfisicosvirtuais">Hospedagem se servidores</Link><br /></li>
+                                <li><Link to="/integracao">Integração de aplicativos e API's</Link><br /></li>
+                                <li><Link to="/sobdemanda">Servidores Sob Demanda</Link><br /></li>
+                                <li><Link to="/linkdedicado">Links dedicados</Link></li>
 
                             </ul>
 

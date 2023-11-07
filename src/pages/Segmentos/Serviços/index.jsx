@@ -25,7 +25,7 @@ const Logistica = () => {
             <Header />
             <HeadbandLogistica />
             <div className="container containerh3">
-                <h1>Soluções para logistica</h1>
+                <h1>Soluções para logística</h1>
 
                 <p>
                     Soluções de TI para logística são ferramentas tecnológicas que visam otimizar o gerenciamento de operações logísticas. Isso inclui o uso de software e hardware para rastreamento de estoque, planejamento de rotas, monitoramento de entregas, gerenciamento de frota, entre outros. Essas soluções permitem que as empresas melhorem a eficiência de suas operações, reduzam custos e ofereçam um melhor serviço aos clientes, garantindo entregas mais rápidas e precisas. Elas desempenham um papel crucial na modernização da logística e ajudam as empresas a enfrentar os desafios de um mercado cada vez mais competitivo.
@@ -65,7 +65,7 @@ const Logistica = () => {
 
             <div className="diferenciais">
                 <div className="container">
-                    <h1>Serviços TC do Brasil para logistica</h1><br />
+                    <h1>Serviços TC do Brasil para logística</h1><br />
 
 
                     <div className="line">

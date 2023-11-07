@@ -42,7 +42,7 @@ import ServFisicosVirtuais from "./pages/Datacenter/ServFisicosVirtuais"
 import Sites from "./pages/Datacenter/Sites"
 import SobDemanda from "./pages/Datacenter/SobDemanda"
 import TrabalheConosco from "./pages/TrabalheConosco"
-
+import Politica from "./pages/Politica"
 
 const Router = () => {
     return (
@@ -268,6 +268,11 @@ const Router = () => {
                     exact
                     path="/trabalheconosco"
                     element={<TrabalheConosco />}
+                />
+                  <Route
+                    exact
+                    path="/politica"
+                    element={<Politica />}
                 />
             </Routes>
         </BrowserRouter>

@@ -63,11 +63,11 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/industria">Industria</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/governo">Governo</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/saude">Saúde</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/logistica">Logistica</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/logistica">Logística</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/varejo">Varejo</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title=" TCLOUD - DATACENTER" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/armazenamento">Amarenamento de dados</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/armazenamento">Armazenamento de dados</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/backup">Backup Offsite</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/aplicacoes">Hospedagem de aplicações</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/sites">Hospedagem de sites</NavDropdown.Item>
@@ -78,7 +78,7 @@ const Header = () => {
                   <NavDropdown.Item as={Link} to="/linkdedicado">Links dedicados</NavDropdown.Item>
                 </NavDropdown>
                  <NavDropdown title="CONTATO" id="basic-nav-dropdown">
-                  <NavDropdown.Item as={Link} to="/contato">Contato</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/contato">Imprensa</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/trabalheconosco">Trabalhe Conosnco</NavDropdown.Item>
                   
                 </NavDropdown>

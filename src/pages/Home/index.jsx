@@ -20,15 +20,15 @@ import { faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import mundotech from "../../assets/mundotech.png"
-import almaviva from "../../assets/clients/almaviva.jpg"
+/* import almaviva from "../../assets/clients/almaviva.jpg"
 import almawave from "../../assets/clients/almawave.jpg"
 import ambev from "../../assets/clients/ambev.jpg"
 import awr from "../../assets/clients/arw.jpg"
 import sesi from "../../assets/clients/sesi.jpg"
-import lbs from "../../assets/clients/lbs.jpg"
+import lbs from "../../assets/clients/lbs.jpg" */
 import mulher from "../../assets/mulher.png"
 import logo from "../../assets/logo.png"
-
+import Slide from "../../components/Slide"
 
 
 
@@ -113,7 +113,7 @@ const Home = () => {
                             nós vamos onde você estiver!<br />
                         </p>
                         <button>
-                            <Link href="">ENTRE EM CONTATO</Link>
+                            <Link to="https://4742be2.paginas.site/entreemcontato" target="_blank">ENTRE EM CONTATO</Link>
                         </button>
 
                     </div>
@@ -182,7 +182,9 @@ const Home = () => {
                     <p>Conheça um pouco de nossos serviços por alguns de nossos clientes</p>
                 </div>
 
-                <div className="container">
+                <Slide/>
+
+             {/*    <div className="container">
                     <div className="roww colum">
                         <div className="col-md-2">
                             <img src={almaviva} className="img-fluid" width={"200px"} alt="" />
@@ -203,7 +205,7 @@ const Home = () => {
                             <img src={lbs} className="img-fluid" width={"200px"} alt="" />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className="faixa">

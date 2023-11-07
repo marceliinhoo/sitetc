@@ -124,7 +124,7 @@ const Footer = () => {
             </div>
             <div className="boxfooter2">
                     <p>© Copyright {currentYear} Grupo TC do Brasil.All Rights Reserved<br/>
-                    Designed by Grupo TC do BrasilPolítica de Privacidade e Termos de Uso <Link to="/politica">Clique aqui</Link></p>
+                    Designed by Grupo TC do Brasil Política de Privacidade e Termos de Uso <Link to="/politica">Clique aqui</Link></p>
 
                 </div>
 

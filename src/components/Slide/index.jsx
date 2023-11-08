@@ -29,7 +29,8 @@ const Slide = () => {
                     className="inner"
                     drag="x"
                     dragConstraints={{right: 0, left:-width}}
-                    initial={{x: 300}} animate={{x: 0}}
+                    initial={{x: 0}} animate={{x: -width}}
+                    transition={{ duration: 5, repeat: Infinity }}
                     >
 
                         {images.map(image => (

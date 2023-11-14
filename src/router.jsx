@@ -43,7 +43,7 @@ import Sites from "./pages/Datacenter/Sites"
 import SobDemanda from "./pages/Datacenter/SobDemanda"
 import TrabalheConosco from "./pages/TrabalheConosco"
 import Politica from "./pages/Politica"
-
+import BlackFriday from "./pages/BlackFriday"
 const Router = () => {
     return (
         <BrowserRouter>
@@ -273,6 +273,11 @@ const Router = () => {
                     exact
                     path="/politica"
                     element={<Politica />}
+                />
+                     <Route
+                    exact
+                    path="/blackfriday"
+                    element={<BlackFriday />}
                 />
             </Routes>
         </BrowserRouter>

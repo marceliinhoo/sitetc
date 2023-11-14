@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "../../components/Header"
+import HeaderTeste from "../../components/HeaderTeste"
 import Footer from "../../components/Footer"
 import 'animate.css';
 import './home.css';
@@ -62,14 +63,16 @@ const Home = () => {
     return (
         <>
             <Header />
+            
 
 
             <div className="bg">
                 <div className="container">
+                    <img src={logo} width={"200px"} alt="" />
                     <h1>Tecnologia para conectar</h1>
                     <h2>Como podemos te surpreender hoje?</h2>
                     <div className="a">
-                        <Link>CONSULTE NOSSOS ESPECIALISTAS</Link>
+                        <Link to="https://4742be2.paginas.site/entreemcontato"> CONSULTE NOSSOS ESPECIALISTAS</Link>
                     </div>
                 </div>
             </div>

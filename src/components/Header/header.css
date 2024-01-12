@@ -3,6 +3,10 @@
   font-weight: bold;
 }
 
+.custom-navbar {
+  background-color: #ffffff; /* Substitua isso pela cor desejada */
+}
+
 .custom-dropdown {
   border: 0px solid #ffffff;
   

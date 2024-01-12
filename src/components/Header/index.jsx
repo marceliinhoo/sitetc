@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="custom-nav">
+      <Navbar collapseOnSelect expand="lg" className="custom-nav fixed-top custom-navbar">
         <Container>
           <Navbar.Brand as={Link} to="/"><img src={logo} width="80px" alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -112,7 +112,7 @@ const Header = () => {
               </NavDropdown>
 
               <Nav.Link href="https://www.tcdobrasil.com" target="_blank">BLOG T.I</Nav.Link>
-              <Nav.Link as={Link} to="/blackfriday">BLACK FRIDAY</Nav.Link>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
